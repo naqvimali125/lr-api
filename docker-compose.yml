@@ -1,0 +1,6 @@
+services:
+  api:
+    image: naqviali125/lr-api:1.0
+    container_name: lr_api
+    ports:
+      - "5000:5000"
